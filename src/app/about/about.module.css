@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    gap: 100px;
+}
+
+.textcontainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.imgcontainer{
+    flex: 1;
+    position: relative;
+}
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box h1{
+    color: var(--btn);
+    font-weight: bold;
+}
+
+.subTitle{
+    color: var(--btn);
+    font-size: 20px;
+}
+.Title{
+    font-size: 54px;
+}
+.description{
+    font-size: 20px;
+    font-weight: 300;
+}
+.img{
+    object-fit: contain;
+}
+
+@media (max-width:768px){
+    .container{   
+        flex-direction: column;
+        text-align: center;
+    .boxes{
+        flex-direction: column;
+        gap: 50px;
+        
+    }
+}
+}
