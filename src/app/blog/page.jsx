@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './blog.module.css'
-import Postcard from '../../components/postCard/Postcard'
+import Postcard from '../../components/postCard/postCard'
 import {getPosts} from '../../lib/data'
 
 // FETCH DATA WITH AN API
